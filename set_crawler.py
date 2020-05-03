@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from time import sleep
 import re
-import xlwt
 
 
 class set_crawler:
