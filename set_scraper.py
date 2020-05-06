@@ -4,7 +4,7 @@ from time import sleep
 import re
 
 
-class set_crawler:
+class set_scraper:
     stock_code = ""
 
     def __init__(self, stock_code):
@@ -181,5 +181,5 @@ class set_crawler:
 # Get list of stock
 stock_list = open("stockList.txt", "r")
 for stock in stock_list:
-    craw = set_crawler(stock)
-    craw.retrieve_stock_info()
+    scraper = set_scraper(stock)
+    scraper.retrieve_stock_info()
